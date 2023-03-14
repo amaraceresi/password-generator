@@ -143,43 +143,10 @@ if (includeSpecial) {
 
 console.log(allCharacters);
 
-  // return "hjfahjs";
-
-var randomIndex = Math.floor(Math.random() * allCharacters.length);
-var password = allCharacters[randomIndex];
-  
-
+var passwordString = []
+for (var i = 0; i < passwordLength; i++) {
+  passwordString += allCharacters[Math.floor(Math.random() * allCharacters.length)];
 }
 
-
-//   var chars = "123456abcdefg!$@";
-//   var passwordLength = 4;
-//   var password = "";
-//   var randomNumber = Math.floor(Math.random() * chars.length);
-//   password += chars.substring(randomNumber, + randomNumber +1);
-
-// }
-
-// alert ('hello');
-
-// var name = prompt("How many characters would you like your password to contain?");
-
-// console.log(name);
-
-// var likesIceCream = confirm("Click OK to confirm including special characters.");
-
-// var likesIceCream = confirm("Click OK to confirm including lowercase characters.");
-
-// var likesIceCream = confirm("Click OK to confirm including uppercase characters.");
-
-// console.log(likesIceCream);
-
-
-
-// var name = prompt("What is your name?");
-
-// console.log(name);
-
-// var likesIceCream = confirm("Do you like Ice Cream?");
-
-// console.log(likesIceCream);
+  return passwordString;
+}
