@@ -1,6 +1,6 @@
 # password-generator
 
-![screen shot](./images/password.png)
+![screen shot](./password.png)
 
 # Password Generator #
 
