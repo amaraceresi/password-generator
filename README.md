@@ -12,4 +12,4 @@
 
 ## Link: ##
 
-https://amaraceresi.github.io/password-generator/Links to an external site.
+https://amaraceresi.github.io/password-generator/
