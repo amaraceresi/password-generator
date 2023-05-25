@@ -1,5 +1,3 @@
-# password-generator
-
 ![screen shot](./password.png)
 
 # Password Generator #
